@@ -1,0 +1,30 @@
+California State University, San Bernardino
+School of Computer Science & Engineering
+CSE572 F2015 – Database Systems
+LAB 04 – Displaying Data from Multiple Tables
+All lab exercises in this course will be using HR database tables. For this lab exercise, you will be using
+HR.EMPLOYEES, HR.DEPARTMENTS, HR.JOB_GRADES and HR.LOCATIONS tables.
+Before doing the exercises below, create a subdirectory LAB04 under your CSE572 directory. Make sure that you
+are in LAB04 subdirectory so that all text files that you save will be stored in this subdirectory. Also be familiar
+with EMPLOYEES, DEPARTMENTS, LOCATIONS, JOB_GRADES by doing a DESCRIBE on each table and SELECT *.
+
+1.Create a query to display the last name, department number and department name for all employees. Save your SQL statement in a text file named LAB04_1.sql. Run your query.
+
+2.Create a unique listing of all jobs that in department 80. Include the location of the department in the output. Save your SQL statement in a text file named LAB04_2.sql. Run this
+revised query.
+
+3. Create a query to display the employee’s last name, department name, location ID and city of all employees who earn a commission. Save your SQL statement in a text file named LAB04_3.sql. Run your query.
+
+4. For each employee who has an ‘a’ (lowercase) in his/her last name, display the employee’s last name and department name. Save your SQL statement in a text file named LAB04_4.sql. Run your query.
+
+5. Write a query that displays the last name, job, department number and department name for all employees who work in Toronto. Save your SQL statement in a text file named LAB04_5.sql. Run your query.
+
+ 6. Create a query to display the employee’s last name and employee numbe along with his/her manager’s last name and manager number. Label the columns Employee, Emp#, Manager and Mgr#, respectively. Save your SQL statement in a text file named LAB04_6.sql. Run your query. 
+
+7. Modify LAB04_6.sql to display all employees including King, who has no manager. Order the results by the employee number. Save your SQL statement in a text file named LAB04_7.sql. Run your query.
+
+8. Show the structure of the JOB_GRADES table. Create a query that displays the name, job, department name, salary and grade for all employees. Save your SQL statement in a text file named LAB04_8.sql. Run your query.
+
+9. Create a query to display the name and hire date of any employee hired after Davies. Save your SQL statement in a text file named LAB04_9.sql. Run your query. 
+
+10. Display the names and hire dates for all employees who were hired before their managers, along with their manager’s names and hire dates. Label the columns Employee, Emp Hired, Manager, and Mgr Hired, respectively. Save your SQL statement in a text file named LAB04_10.sql. Run your query.
