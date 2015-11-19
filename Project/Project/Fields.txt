@@ -1,5 +1,0 @@
-church S_name, denomination: catholic batptist methodist lutheran mormon buddhist muslim, pastor
-
-school S_name size nameOfPrincipal SchoolDistrict Taxbase public schools not for profit
-
-exempt S_name exemptId annualBudget
